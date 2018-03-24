@@ -59,7 +59,7 @@ c_steps = []
 
 
 
-# Loginc to append to lists above depending on the action
+# Logic to append to lists above depending on the action
 for r in records:
     if r['action'] == 'A':
         a_steps.append(r['user'])
