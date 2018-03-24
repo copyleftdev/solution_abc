@@ -81,7 +81,6 @@ def detect_a_b_c():
 class TestABC(unittest.TestCase):
 
     def test_users_1_4_8_return(self):
-        test_date = records
         collected_records = detect_a_b_c()
         desired_result =[{'action': 'A', 'user': '1'},
          {'action': 'B', 'user': '1'},
